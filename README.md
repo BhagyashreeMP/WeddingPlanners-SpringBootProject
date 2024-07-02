@@ -44,7 +44,7 @@ The WeddingPlanners-SpringBootProject is a comprehensive web application designe
 2. **Navigate to the Project Directory:**
  
    ```bash
-   cd WeddingPlanners-SpringBootPorject
+   cd WeddingPlanners-SpringBootProject
 
 3. **Contact:**
 
