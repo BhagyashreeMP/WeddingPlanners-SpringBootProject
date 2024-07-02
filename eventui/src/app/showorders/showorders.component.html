@@ -1,0 +1,25 @@
+<h2>Order Details</h2>
+<div class="container">
+<table>
+    <tr>
+        <th>Event Code</th>
+        <th>Order Code</th>
+        <th>Customer name</th>
+        <th>Location</th>
+        <th>Date</th>
+        <th>Update</th>
+        <th>Delete</th>
+    </tr>
+    <tr *ngFor="let o of order">
+        <td>{{o.eventCode}}</td>
+        <td>{{o.orderCode}}</td>
+        <td>{{o.custName}}</td>
+        <td>{{o.location}}</td>
+        <td>{{o.date}}</td>
+        <td><a href ="updateOrder/{{o.eventCode}}" class="btn btn primary">Update</a></td>
+        <td><a href ="deleteOrder/{{o.eventCode}}" class="btn btn primary">Delete</a></td>
+    </tr>
+</table>
+<a href='custSuccess'>Back to Customer page</a>
+</div>
+

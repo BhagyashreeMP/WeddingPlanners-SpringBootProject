@@ -1,0 +1,23 @@
+<h2>Order Details</h2>
+<div class="container">
+<table>
+    <tr>
+        <th>Event Code</th>
+        <th>Order Code</th>
+        <th>Customer name</th>
+        <th>Location</th>
+        <th>Date</th>
+    </tr>
+    <tr *ngFor="let o of order">
+        <td>{{o.eventCode}}</td>
+        <td>{{o.orderCode}}</td>
+        <td>{{o.custName}}</td>
+        <td>{{o.location}}</td>
+        <td>{{o.date}}</td>
+    </tr>
+</table>
+<a href='adminSucces'>Back to admin page</a>
+
+
+</div>
+

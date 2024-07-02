@@ -1,0 +1,21 @@
+<h2>EVENT DETAILS</h2>
+<div class="container">
+<table>
+    <tr>
+        <th>Event Code</th>
+        <th>Event Name</th>
+        <th>Event Price Per Head</th>
+        
+    </tr>
+    <tr *ngFor="let e of event">
+        <td>{{e.eventCode}}</td>
+        <td>{{e.eventName}}</td>
+        <td>{{e.eventPricePerhead}}</td>
+      
+    </tr>
+</table>
+<a href='custSuccess'>Back to customer page</a>
+
+
+</div>
+

@@ -1,0 +1,14 @@
+ <div class="container col-md-7">
+    <h1 style="color: red;">Login</h1>
+    <form (ngSubmit) ="checkLogin()" #eventInfo="ngForm" >
+        <div class="md-3">
+          <label for="username">Username:</label>
+          <input type="text" [(ngModel)]="admin.username" class="form-control" id="username" name="username"/>
+        </div>
+        <div class="md-3">
+          <label for="password">Password:</label>
+          <input type="password" [(ngModel)]="admin.password" class="form-control" id="password" name="password"/>
+        </div>
+        <button type="submit">Login</button>
+      </form>
+  </div>  

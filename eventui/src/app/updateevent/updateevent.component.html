@@ -1,0 +1,10 @@
+<h2>Update Event Details</h2>
+<hr />
+    <div class="container">
+        <form (ngSubmit)="getUEvent()" #eventInfo="ngForm">
+                Event Id : <input type="text" [(ngModel)]="event.eventCode" name="eventCode" /><br />
+                Event Name : <input type="text" [(ngModel)]="event.eventName" name="eventName" /><br />
+                Event Price :<input type="test" [(ngModel)]="event.eventPricePerhead" name="eventPricePerhead" /><br />
+                <button type="submit">Submit</button>
+        </form>
+    </div>

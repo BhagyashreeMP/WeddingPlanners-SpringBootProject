@@ -1,0 +1,12 @@
+<h1>Submit OrderI Details</h1>
+<hr>
+<div class="container">
+<form (ngSubmit) = "getOrder()" >
+    Event Id : <input type="text" [(ngModel)]="order.eventCode" name="eventCode" /><br />
+    Order Code : <input type="text" [(ngModel)]="order.orderCode" name="orderCode" /><br />
+    Customer Name : <input type="text" [(ngModel)]="order.custName" name="customerName" /><br />
+    Location :<input type="test" [(ngModel)]="order.location" name="location" /><br />
+    Date :<input type="test" [(ngModel)]="order.date" name="date" /><br />
+    <button type="submit">Submit</button>
+    </form>
+</div>

@@ -1,0 +1,12 @@
+<h1>Submit Event Details</h1>
+<hr>
+<div class="container">
+<form (ngSubmit) = "getCustomer()" >
+    Name : <input type="text" [(ngModel)]="customer.custName" name="custName" /><br />
+    Password : <input type="text" [(ngModel)]="customer.custPassword" name="custPassword" /><br />
+    Contact :<input type="test" [(ngModel)]="customer.contact" name="contact" /><br />
+    Email :<input type="test" [(ngModel)]="customer.custEmail" name="email" /><br />
+
+    <button type="submit">Submit</button>
+    </form>
+</div>
